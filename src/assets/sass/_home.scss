@@ -1,0 +1,12 @@
+@import './_base.scss';
+
+#tpl {
+    padding: 50px 0;
+    > .mint-navbar{
+        margin-top: 50px;
+        > .mint-tab-item.is-selected{
+            border-bottom: 3px solid $selected-color;
+            color: $selected-color; 
+        }
+    }
+}

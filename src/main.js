@@ -13,7 +13,7 @@ Vue.use(MintUi)
 import moment from 'moment'
 Vue.use(moment)
 Vue.filter('moment',function(value){
-  moment.lang('zh-cn');
+  moment.locale('zh-cn');
   return moment(value).startOf("hour").fromNow();
 })
 

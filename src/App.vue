@@ -45,35 +45,8 @@ export default {
 }
 </script>
 
-<style>
-.mint-header {
-  height: 50px;
-  background-color: #333;
-}
+<style lang="scss">
 
-.mint-header img {
-  height: 25px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+@import './assets/sass/_app.scss'
 
-.mint-tabbar {
-  background-color: #333;
-
-}
-.mint-tab-item {
-  padding: 10px 0;
-}
-.mint-tab-item i{
-  font-size: 30px;
-  color: #fff;
-}
-.mint-tabbar > .mint-tab-item.is-selected {
-  background-color: transparent;
-}
-.mint-tabbar > .mint-tab-item.is-selected i {
-  color: #80bd01;
-}
 </style>
